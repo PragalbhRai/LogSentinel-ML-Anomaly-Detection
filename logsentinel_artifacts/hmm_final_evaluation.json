@@ -1,0 +1,29 @@
+{
+  "model": "CategoricalHMM",
+  "hidden_states": 3,
+  "threshold": 2.991257009736873,
+  "threshold_selection": "validation_f1_maximization",
+  "anomaly_score": "negative_log_likelihood_per_event",
+  "validation": {
+    "precision": 0.9738955823293173,
+    "recall": 0.49948506694129763,
+    "f1": 0.6603131381892444,
+    "false_alarm_rate": 0.0002627058704657977,
+    "average_precision": 0.7469111876097106,
+    "TP": 485,
+    "FP": 13,
+    "TN": 49472,
+    "FN": 486
+  },
+  "test": {
+    "precision": 0.6954492415402567,
+    "recall": 0.5340501792114696,
+    "f1": 0.6041561074505829,
+    "false_alarm_rate": 0.00306510710259301,
+    "average_precision": 0.6926897700385918,
+    "TP": 596,
+    "FP": 261,
+    "TN": 84891,
+    "FN": 520
+  }
+}

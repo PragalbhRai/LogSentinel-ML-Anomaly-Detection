@@ -1,0 +1,82 @@
+{
+  "python": "3.12.10",
+  "platform": "Windows-11-10.0.26300-SP0",
+  "packages": {
+    "numpy": "2.2.6",
+    "pandas": "2.2.3",
+    "scipy": "1.16.3",
+    "scikit-learn": "1.6.1",
+    "imbalanced-learn": "0.14.0",
+    "joblib": "1.5.3",
+    "hmmlearn": "0.3.3",
+    "threadpoolctl": "3.7.0"
+  },
+  "input_artifact_sha256": {
+    "logsentinel_artifacts/baseline_models.npz": "5475eb4b4ef58fc90c6a73fd18d069739947d5347cd441ac532735e5da5cedb2",
+    "logsentinel_artifacts/baseline_scores.npz": "0d5656113c5712e849eebcae2c9d4b182a1d5d00b74a918650a1c4aa63b4253e",
+    "logsentinel_artifacts/dependency_versions.json": "416e5147a9801cbdc21904837454e40e8b86ff507ff74eb663b14a3ee7de5b7d",
+    "logsentinel_artifacts/event_vocabulary.json": "c6315c6da54da71cac75e4d9d9f3c72477c0a3bd481739e6eeb23a12265a74eb",
+    "logsentinel_artifacts/figures/hmm_confusion_matrix.png": "c9aeda96ef8b6d880b11b7134fc516af83b7e43b2c4f9d2c5c867934c59b1386",
+    "logsentinel_artifacts/figures/hmm_score_distribution.png": "c915df5471b5fbf51c476952259b1d2640871324ff45b2e702cdd1845de45f4c",
+    "logsentinel_artifacts/figures/model_f1_comparison.png": "56eabcb449fe315e43c34b362a067de869b85ef4ee30361792a4d70e64a2d88c",
+    "logsentinel_artifacts/figures/precision_recall_comparison.png": "06031febc9be3ccb7b8f607d57cf78140fc4b7b86c895b1155771e7d6619a789",
+    "logsentinel_artifacts/final_model_comparison.csv": "cb78f8f43d81ffcece1e145da3715d4d936d2cd688992a38d19551ecbb7ed3f4",
+    "logsentinel_artifacts/hdfs_event_sequences.npz": "46e00d0616440c3ea404d09ebb02e1a8e0274c450cf7fddd0aaf506d74430bb6",
+    "logsentinel_artifacts/hdfs_split_manifest.csv": "5a7be4f2e0ce4464a511295a139e3a0bff3e22271eb982fd3a86c89bd8113a2d",
+    "logsentinel_artifacts/hmm_final_3state.joblib": "7c5e390dd655bca93880f45defbcb4752937feee06e77719357d618bdc0ade8d",
+    "logsentinel_artifacts/hmm_final_evaluation.json": "e5d32028d1289be572f5337dcb879a580f988620a69f711fa82aa081be6496dc",
+    "logsentinel_artifacts/hmm_final_evaluation_scores.npz": "f8202246845a1457b999a3ca284ec7709d74dc956da29c198f393a1cc199690f",
+    "logsentinel_artifacts/hmm_test_predictions.csv": "2100be87eadfafe5184927fca43e0a7d941952effeb153c302a8d8cca1cf7301",
+    "logsentinel_artifacts/hmm_training_history.npy": "206f6b12460b25619addb558deb7452deef7a4be64b1138353ea2aa0b604ccf1",
+    "logsentinel_artifacts/hmm_training_report.json": "804ad3cbbc9e07b7933801c43b4a39f67af390e9a8a83fa19f18bc027f61937e",
+    "logsentinel_artifacts/hmm_validation_comparison.csv": "36040f23de2b37e2b3763a29c00b4ca926ff69bc3993c597c2abcdc4133a8be7",
+    "logsentinel_artifacts/hmm_validation_scores.npz": "778d8ae33d988af79736d6324d980f9e83007f08054f884d2935cfa2cd8fe7e3",
+    "logsentinel_artifacts/project_summary.json": "427419db0b8debb829dc844acfd1476387924144ef12449d7d64eff1c48ea96e",
+    "logsentinel_artifacts/retained_block_metadata.csv": "245aa2b12cef083cfaccb45bf0409f45e1d2861ea7a61f629dfbda107214729e",
+    "logsentinel_artifacts/split_config.json": "a2b0e507ea66ce576f570acb6799fd2d7f7ab9db07c9c7798b030dd9df973569"
+  },
+  "notebook_sha256": "457ee5b2e5988c708615b30eb7ba496abe4111258a9d07074ca0d483b9f83e3f",
+  "dashboard_sha256_before": {
+    "app\\charts.py": "3eacdf6e55322afb5ae6555d74b69b8c910a485837139bc0a9e573dc6a054e0e",
+    "app\\components.py": "893fbf31415fa818e71f0f78348256d5a36494821ea19cb58e68b310c6fd6d06",
+    "app\\data.py": "4359a17628d5b5022af5af35acca6d2c7073652552cfd5ee849b19f6f4675986",
+    "app\\design.py": "910ce72c0b68e8d479da192fd24395ba62d7b3401de3ca664fbb65df67e329be",
+    "app\\routes.py": "62aa400f2b5f3d5b551080546eda53b75d3f062bbeef798081da9a38d8d08214",
+    "app\\streamlit_app.py": "d7283213037de40813c4588e0a30e72a161ed16580f1ca8b4e3e8325c36edf6a",
+    "app\\styles.css": "4e4eee75042032c799d0bef5f6eab059a0373f15f8d2ca122c2301fab65525b0",
+    "app\\__init__.py": "712c61a9bd81afacb0dc60deaae643aa431745b7df5e3e8d37877a460e4d2317",
+    "app\\views\\evaluation.py": "be36d7d272bbb30116f69f8297737a71572b287fc44c368c9bd89cf09b157b95",
+    "app\\views\\explorer.py": "902fd646b42926c92b30d82070588fd0f6f15bde7e4324a2c795922d9489fb78",
+    "app\\views\\hmm.py": "a102a2e261e5104e15d6fa312a152feead77f00eeb9230a11d69079d9b38f291",
+    "app\\views\\inference.py": "bdbd4445d54b74ce3f8e9886c34999b4141a45eb30452723f9e5178b22985c4d",
+    "app\\views\\overview.py": "9b2d20df622d43e5674e5933df96e95d87ea177e8e2d5b4b03dfab64c853a7b2",
+    "app\\views\\timeline.py": "8a71ab24992bb6966e33fec236b3cc83ac269fbe25f4f3df1675ddb4ae4a32de",
+    "app\\views\\__init__.py": "a2851c5e91c3b3416df5e29b1fad522b1c4222524d463bb676231148b3530883"
+  },
+  "class_counts_Normal_Anomaly": {
+    "train": [
+      345462,
+      11674
+    ],
+    "validation": [
+      49485,
+      971
+    ],
+    "test": [
+      85152,
+      1116
+    ]
+  },
+  "split": {
+    "dataset": "HDFS_v1",
+    "strategy": "strict_chronological_time_purged",
+    "train_boundary": "20081111060046",
+    "validation_test_boundary": "20081111083310",
+    "excluded_boundary_crossing_blocks": 81201,
+    "random_seed": 42,
+    "status": "frozen"
+  },
+  "baseline_source": "checksum-verified saved scores, unchanged validation-selected thresholds",
+  "comparison_caveat": "Forests use normal and anomalous training labels; HMM/frequency were fitted on normal training blocks only.",
+  "hyperparameters": "Fixed in advance; no search or test-based selection."
+}

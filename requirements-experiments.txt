@@ -1,0 +1,3 @@
+# Optional research dependencies; the Windows lock is archival only.
+-r requirements.txt
+imbalanced-learn==0.14.0

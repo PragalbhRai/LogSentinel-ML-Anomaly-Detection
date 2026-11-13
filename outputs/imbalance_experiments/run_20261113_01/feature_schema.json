@@ -1,0 +1,223 @@
+{
+  "type": "event_counts",
+  "dtype": "float32",
+  "normalization": "none",
+  "columns": [
+    {
+      "column": 0,
+      "template": "<UNKNOWN>"
+    },
+    {
+      "column": 1,
+      "template": "dfs.DataBlockScanner | Adding an already existing block <BLOCK>"
+    },
+    {
+      "column": 2,
+      "template": "dfs.DataBlockScanner | Verification succeeded for <BLOCK>"
+    },
+    {
+      "column": 3,
+      "template": "dfs.DataNode | <ADDRESS> Starting thread to transfer block <BLOCK> to <ADDRESS>"
+    },
+    {
+      "column": 4,
+      "template": "dfs.DataNode | <ADDRESS> Starting thread to transfer block <BLOCK> to <ADDRESS>, <ADDRESS>"
+    },
+    {
+      "column": 5,
+      "template": "dfs.DataNode$BlockReceiver | <ADDRESS>:Exception writing block <BLOCK> to mirror <ADDRESS>"
+    },
+    {
+      "column": 6,
+      "template": "dfs.DataNode$BlockReceiver | Changing block file offset of block <BLOCK> from <NUM> to <NUM> meta file offset to <NUM>"
+    },
+    {
+      "column": 7,
+      "template": "dfs.DataNode$BlockReceiver | Exception in receiveBlock for block <BLOCK> java.io.EOFException"
+    },
+    {
+      "column": 8,
+      "template": "dfs.DataNode$BlockReceiver | Exception in receiveBlock for block <BLOCK> java.io.IOException: Connection reset by peer"
+    },
+    {
+      "column": 9,
+      "template": "dfs.DataNode$BlockReceiver | Exception in receiveBlock for block <BLOCK> java.io.InterruptedIOException: Interruped while waiting for IO on channel java.nio.channels.SocketChannel[connected local=<ADDRESS> remote=<ADDRESS>]. <NUM> millis timeout left."
+    },
+    {
+      "column": 10,
+      "template": "dfs.DataNode$BlockReceiver | Exception in receiveBlock for block <BLOCK> java.net.SocketTimeoutException: <NUM> millis timeout while waiting for channel to be ready for write. ch : java.nio.channels.SocketChannel[connected local=<ADDRESS> remote=<ADDRESS>]"
+    },
+    {
+      "column": 11,
+      "template": "dfs.DataNode$BlockReceiver | Exception in receiveBlock for block <BLOCK> java.nio.channels.ClosedByInterruptException"
+    },
+    {
+      "column": 12,
+      "template": "dfs.DataNode$BlockReceiver | Receiving empty packet for block <BLOCK>"
+    },
+    {
+      "column": 13,
+      "template": "dfs.DataNode$DataTransfer | <ADDRESS>:Failed to transfer <BLOCK> to <ADDRESS> got java.io.IOException: Connection reset by peer"
+    },
+    {
+      "column": 14,
+      "template": "dfs.DataNode$DataTransfer | <ADDRESS>:Transmitted block <BLOCK> to <ADDRESS>"
+    },
+    {
+      "column": 15,
+      "template": "dfs.DataNode$DataXceiver | <ADDRESS> Served block <BLOCK> to <ADDRESS>"
+    },
+    {
+      "column": 16,
+      "template": "dfs.DataNode$DataXceiver | <ADDRESS>:Got exception while serving <BLOCK> to <ADDRESS>:"
+    },
+    {
+      "column": 17,
+      "template": "dfs.DataNode$DataXceiver | Received block <BLOCK> src: <ADDRESS> dest: <ADDRESS> of size <NUM>"
+    },
+    {
+      "column": 18,
+      "template": "dfs.DataNode$DataXceiver | Receiving block <BLOCK> src: <ADDRESS> dest: <ADDRESS>"
+    },
+    {
+      "column": 19,
+      "template": "dfs.DataNode$DataXceiver | writeBlock <BLOCK> received exception java.io.EOFException"
+    },
+    {
+      "column": 20,
+      "template": "dfs.DataNode$DataXceiver | writeBlock <BLOCK> received exception java.io.IOException: Block <BLOCK> is valid, and cannot be written to."
+    },
+    {
+      "column": 21,
+      "template": "dfs.DataNode$DataXceiver | writeBlock <BLOCK> received exception java.io.IOException: Broken pipe"
+    },
+    {
+      "column": 22,
+      "template": "dfs.DataNode$DataXceiver | writeBlock <BLOCK> received exception java.io.IOException: Connection reset by peer"
+    },
+    {
+      "column": 23,
+      "template": "dfs.DataNode$DataXceiver | writeBlock <BLOCK> received exception java.io.IOException: Could not read from stream"
+    },
+    {
+      "column": 24,
+      "template": "dfs.DataNode$DataXceiver | writeBlock <BLOCK> received exception java.io.IOException: Interrupted receiveBlock"
+    },
+    {
+      "column": 25,
+      "template": "dfs.DataNode$DataXceiver | writeBlock <BLOCK> received exception java.io.InterruptedIOException: Interruped while waiting for IO on channel java.nio.channels.SocketChannel[connected local=<ADDRESS> remote=<ADDRESS>]. <NUM> millis timeout left."
+    },
+    {
+      "column": 26,
+      "template": "dfs.DataNode$DataXceiver | writeBlock <BLOCK> received exception java.net.NoRouteToHostException: No route to host"
+    },
+    {
+      "column": 27,
+      "template": "dfs.DataNode$DataXceiver | writeBlock <BLOCK> received exception java.net.SocketTimeoutException"
+    },
+    {
+      "column": 28,
+      "template": "dfs.DataNode$DataXceiver | writeBlock <BLOCK> received exception java.net.SocketTimeoutException: <NUM> millis timeout while waiting for channel to be ready for read. ch : java.nio.channels.SocketChannel[connected local=<ADDRESS> remote=<ADDRESS>]"
+    },
+    {
+      "column": 29,
+      "template": "dfs.DataNode$DataXceiver | writeBlock <BLOCK> received exception java.net.SocketTimeoutException: <NUM> millis timeout while waiting for channel to be ready for write. ch : java.nio.channels.SocketChannel[connected local=<ADDRESS> remote=<ADDRESS>]"
+    },
+    {
+      "column": 30,
+      "template": "dfs.DataNode$DataXceiver | writeBlock <BLOCK> received exception java.nio.channels.ClosedByInterruptException"
+    },
+    {
+      "column": 31,
+      "template": "dfs.DataNode$PacketResponder | PacketResponder <BLOCK> <NUM> Exception java.io.EOFException"
+    },
+    {
+      "column": 32,
+      "template": "dfs.DataNode$PacketResponder | PacketResponder <BLOCK> <NUM> Exception java.io.IOException: Broken pipe"
+    },
+    {
+      "column": 33,
+      "template": "dfs.DataNode$PacketResponder | PacketResponder <BLOCK> <NUM> Exception java.io.IOException: Connection reset by peer"
+    },
+    {
+      "column": 34,
+      "template": "dfs.DataNode$PacketResponder | PacketResponder <BLOCK> <NUM> Exception java.io.InterruptedIOException: Interruped while waiting for IO on channel java.nio.channels.SocketChannel[closed]. <NUM> millis timeout left."
+    },
+    {
+      "column": 35,
+      "template": "dfs.DataNode$PacketResponder | PacketResponder <BLOCK> <NUM> Exception java.io.InterruptedIOException: Interruped while waiting for IO on channel java.nio.channels.SocketChannel[connected local=<ADDRESS> remote=<ADDRESS>]. <NUM> millis timeout left."
+    },
+    {
+      "column": 36,
+      "template": "dfs.DataNode$PacketResponder | PacketResponder <BLOCK> <NUM> Exception java.net.SocketTimeoutException: <NUM> millis timeout while waiting for channel to be ready for read. ch : java.nio.channels.SocketChannel[connected local=<ADDRESS> remote=<ADDRESS>]"
+    },
+    {
+      "column": 37,
+      "template": "dfs.DataNode$PacketResponder | PacketResponder <BLOCK> <NUM> Exception java.nio.channels.ClosedByInterruptException"
+    },
+    {
+      "column": 38,
+      "template": "dfs.DataNode$PacketResponder | PacketResponder <NUM> for block <BLOCK> Interrupted."
+    },
+    {
+      "column": 39,
+      "template": "dfs.DataNode$PacketResponder | PacketResponder <NUM> for block <BLOCK> terminating"
+    },
+    {
+      "column": 40,
+      "template": "dfs.DataNode$PacketResponder | Received block <BLOCK> of size <NUM> from <ADDRESS>"
+    },
+    {
+      "column": 41,
+      "template": "dfs.FSDataset | Deleting block <BLOCK> file <PATH>"
+    },
+    {
+      "column": 42,
+      "template": "dfs.FSDataset | Reopen Block <BLOCK>"
+    },
+    {
+      "column": 43,
+      "template": "dfs.FSDataset | Unexpected error trying to delete block <BLOCK>. BlockInfo not found in volumeMap."
+    },
+    {
+      "column": 44,
+      "template": "dfs.FSNamesystem | BLOCK* NameSystem.addStoredBlock: Redundant addStoredBlock request received for <BLOCK> on <ADDRESS> size <NUM>"
+    },
+    {
+      "column": 45,
+      "template": "dfs.FSNamesystem | BLOCK* NameSystem.addStoredBlock: addStoredBlock request received for <BLOCK> on <ADDRESS> size <NUM> But it does not belong to any file."
+    },
+    {
+      "column": 46,
+      "template": "dfs.FSNamesystem | BLOCK* NameSystem.addStoredBlock: blockMap updated: <ADDRESS> is added to <BLOCK> size <NUM>"
+    },
+    {
+      "column": 47,
+      "template": "dfs.FSNamesystem | BLOCK* NameSystem.allocateBlock: <PATH> <BLOCK>"
+    },
+    {
+      "column": 48,
+      "template": "dfs.FSNamesystem | BLOCK* NameSystem.delete: <BLOCK> is added to invalidSet of <ADDRESS>"
+    },
+    {
+      "column": 49,
+      "template": "dfs.FSNamesystem | BLOCK* Removing block <BLOCK> from neededReplications as it does not belong to any file."
+    },
+    {
+      "column": 50,
+      "template": "dfs.FSNamesystem | BLOCK* ask <ADDRESS> to replicate <BLOCK> to datanode(s) <ADDRESS>"
+    },
+    {
+      "column": 51,
+      "template": "dfs.FSNamesystem | BLOCK* ask <ADDRESS> to replicate <BLOCK> to datanode(s) <ADDRESS> <ADDRESS>"
+    },
+    {
+      "column": 52,
+      "template": "dfs.PendingReplicationBlocks$PendingReplicationMonitor | PendingReplicationMonitor timed out block <BLOCK>"
+    }
+  ],
+  "metadata_features": [],
+  "event_order_retained": false,
+  "validation_feature_sha256": "39e2988b30fd571679233fc03a117b4f2f8aa52ec18f490c3ff0cbd15ea74569",
+  "test_feature_sha256": "8e22bf5aa9625c4d9e14690ebc1658e6acf28ecffb8cf6a488ba0512bdb24733"
+}

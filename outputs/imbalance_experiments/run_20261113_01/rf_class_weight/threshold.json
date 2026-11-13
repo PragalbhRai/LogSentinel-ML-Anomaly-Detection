@@ -1,0 +1,8 @@
+{
+  "threshold": 0.5338195658225056,
+  "comparison": ">=",
+  "source_partition": "validation",
+  "objective": "maximum_f1",
+  "tie_break": "lowest_threshold",
+  "test_used": false
+}

@@ -1,0 +1,9 @@
+# Runtime pins shared by the package and Streamlit Cloud (Python 3.12).
+numpy==2.2.6
+pandas==2.2.3
+scipy==1.16.3
+scikit-learn==1.6.1
+hmmlearn==0.3.3
+joblib==1.5.3
+streamlit==1.50.0
+plotly==6.3.1

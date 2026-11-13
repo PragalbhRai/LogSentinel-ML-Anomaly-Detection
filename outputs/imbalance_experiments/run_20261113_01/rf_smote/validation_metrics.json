@@ -1,0 +1,12 @@
+{
+  "threshold": 0.6095269337467838,
+  "precision": 1.0,
+  "recall": 1.0,
+  "f1": 1.0,
+  "false_alarm_rate": 0.0,
+  "average_precision": 1.0,
+  "TP": 971,
+  "FP": 0,
+  "TN": 49485,
+  "FN": 0
+}

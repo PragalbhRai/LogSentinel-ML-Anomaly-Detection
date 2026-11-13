@@ -1,0 +1,14 @@
+{
+  "input_partition": "train",
+  "validation_resampled": false,
+  "test_resampled": false,
+  "original_rows": 357136,
+  "resampled_rows": 690924,
+  "class_counts": [
+    345462,
+    345462
+  ],
+  "random_state": 42,
+  "k_neighbors": 5,
+  "synthetic_features_may_be_fractional": true
+}

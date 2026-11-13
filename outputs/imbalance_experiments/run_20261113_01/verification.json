@@ -1,0 +1,62 @@
+{
+  "status": "passed",
+  "all_payload_hashes_verified": true,
+  "models": {
+    "rf_class_weight": {
+      "validation": {
+        "blocks": 50456,
+        "prediction_mismatches": 0,
+        "max_absolute_reloaded_score_difference": 1.1102230246251565e-16,
+        "metrics_and_confusion_counts_verified": true
+      },
+      "test": {
+        "blocks": 86268,
+        "prediction_mismatches": 0,
+        "max_absolute_reloaded_score_difference": 2.220446049250313e-16,
+        "metrics_and_confusion_counts_verified": true
+      }
+    },
+    "rf_smote": {
+      "validation": {
+        "blocks": 50456,
+        "prediction_mismatches": 0,
+        "max_absolute_reloaded_score_difference": 0.0,
+        "metrics_and_confusion_counts_verified": true
+      },
+      "test": {
+        "blocks": 86268,
+        "prediction_mismatches": 0,
+        "max_absolute_reloaded_score_difference": 0.0,
+        "metrics_and_confusion_counts_verified": true
+      }
+    },
+    "hmm": {
+      "validation": {
+        "blocks": 50456,
+        "prediction_mismatches": 0,
+        "max_absolute_reloaded_score_difference": 0.0,
+        "metrics_and_confusion_counts_verified": true
+      },
+      "test": {
+        "blocks": 86268,
+        "prediction_mismatches": 0,
+        "max_absolute_reloaded_score_difference": 0.0,
+        "metrics_and_confusion_counts_verified": true
+      }
+    },
+    "frequency": {
+      "validation": {
+        "blocks": 50456,
+        "prediction_mismatches": 0,
+        "max_absolute_reloaded_score_difference": 0.0,
+        "metrics_and_confusion_counts_verified": true
+      },
+      "test": {
+        "blocks": 86268,
+        "prediction_mismatches": 0,
+        "max_absolute_reloaded_score_difference": 0.0,
+        "metrics_and_confusion_counts_verified": true
+      }
+    }
+  }
+}

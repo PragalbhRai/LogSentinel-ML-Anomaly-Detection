@@ -1,0 +1,13 @@
+{
+  "training_normal": 345462,
+  "training_anomaly": 11674,
+  "synthetic_training_rows": 333788,
+  "resampled_training_rows": 690924,
+  "resampled_feature_and_label_bytes": 152003280,
+  "estimated_working_bytes": 3048431968,
+  "available_physical_bytes": 11750408192,
+  "budget_bytes": 5875204096,
+  "maximum_available_memory_fraction": 0.5,
+  "passed": true,
+  "scope": "Conservative estimate, not a measured peak; includes existing forest and temporary copies."
+}

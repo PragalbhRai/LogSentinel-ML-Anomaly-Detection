@@ -1,0 +1,12 @@
+{
+  "python": "3.12.10",
+  "platform": "Windows-11-10.0.26300-SP0",
+  "runtime_lock": "requirements.lock.txt",
+  "optional_browser_qa": "requirements-qa.txt",
+  "browser_qa_versions": {
+    "playwright": "1.55.0",
+    "greenlet": "3.5.6",
+    "pyee": "13.0.1"
+  },
+  "verification": "97 tests passed; browser evidence in ignored outputs/dashboard_qa"
+}

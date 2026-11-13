@@ -1,0 +1,24 @@
+{
+  "random_state": 42,
+  "features": "event_counts_float32_in_frozen_vocabulary_order",
+  "threshold_selection": "maximum_validation_f1_lowest_threshold_on_ties",
+  "forest": {
+    "n_estimators": 200,
+    "criterion": "gini",
+    "max_depth": 20,
+    "min_samples_split": 2,
+    "min_samples_leaf": 2,
+    "max_features": "sqrt",
+    "max_leaf_nodes": 4096,
+    "bootstrap": true,
+    "n_jobs": 2
+  },
+  "smote": {
+    "sampling_strategy": "auto",
+    "k_neighbors": 5,
+    "neighbor_algorithm": "brute",
+    "working_memory_mib": 128,
+    "thread_limit": 2,
+    "maximum_available_memory_fraction": 0.5
+  }
+}

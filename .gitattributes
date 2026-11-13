@@ -1,0 +1,5 @@
+﻿* text=auto eol=lf
+# Preserve checksum-verified bundles byte for byte across platforms.
+/logsentinel_artifacts/** -text
+/outputs/imbalance_experiments/run_20261113_01/** -text
+/logsentinel.ipynb -text

@@ -1,0 +1,3 @@
+﻿# Streamlit Community Cloud: Python 3.12, including the local src package.
+-r requirements-runtime.txt
+-e .

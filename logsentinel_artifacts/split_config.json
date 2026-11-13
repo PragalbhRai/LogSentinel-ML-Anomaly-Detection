@@ -1,0 +1,9 @@
+{
+    "dataset": "HDFS_v1",
+    "strategy": "strict_chronological_time_purged",
+    "train_boundary": "20081111060046",
+    "validation_test_boundary": "20081111083310",
+    "excluded_boundary_crossing_blocks": 81201,
+    "random_seed": 42,
+    "status": "frozen"
+}

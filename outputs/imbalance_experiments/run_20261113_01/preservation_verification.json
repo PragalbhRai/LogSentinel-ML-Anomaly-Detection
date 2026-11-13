@@ -1,0 +1,9 @@
+{
+  "status": "passed",
+  "existing_files_checked": 49,
+  "changed_original_files": [],
+  "new_experiment_module": "src/logsentinel/imbalance_experiments.py",
+  "regression_test_count": 103,
+  "regression_failures": 0,
+  "saved_run_verification": "outputs/imbalance_experiments/run_20261113_01/verification.json"
+}

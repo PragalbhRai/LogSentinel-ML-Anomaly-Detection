@@ -1,0 +1,15 @@
+{
+  "model": "CategoricalHMM",
+  "hidden_states": 3,
+  "training_blocks": 345462,
+  "training_observations": 7249666,
+  "training_seconds": 480.75284719467163,
+  "iterations": 35,
+  "final_log_likelihood": -11984189.624379812,
+  "last_absolute_improvement": 0.058717500418424606,
+  "last_relative_improvement": 4.899580361385691e-09,
+  "strict_convergence": false,
+  "initialization": "validated_3state_pilot",
+  "random_seed": 42,
+  "training_subset": "all_normal_training_blocks"
+}

@@ -1,0 +1,30 @@
+project: logsentinel-hmm
+dataset:
+  name: HDFS_v1
+  source: https://github.com/logpai/loghub/tree/master/HDFS
+  raw_directory: data/raw
+  label_file: anomaly_label.csv
+split:
+  strategy: strict_chronological_time_purged
+  provisional_fractions: [0.70, 0.15, 0.15]
+  train_boundary: '20081111060046'
+  validation_test_boundary: '20081111083310'
+  boundary_overlap_policy: exclude_crossing_blocks
+  retained_blocks: 493860
+  excluded_blocks: 81201
+  membership_source: logsentinel_artifacts/hdfs_split_manifest.csv
+model:
+  type: categorical_hmm
+  hidden_states_candidates: [3, 5, 8]
+  selected_states: 3
+  selection_order: [validation_average_precision, validation_f1]
+  seeds: [42]
+  normal_only_training: true
+scoring:
+  method: mean_negative_log_likelihood
+  threshold: 2.991257009736873
+  comparison: '>='
+  threshold_origin: validation_f1_maximization
+evaluation:
+  positive_label: Anomaly
+  metrics: [precision, recall, f1, false_alarm_rate, average_precision]

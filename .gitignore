@@ -1,0 +1,51 @@
+﻿# Local environments and generated files.
+.venv/
+venv/
+__pycache__/
+.pytest_cache/
+.ipynb_checkpoints/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+# Raw and intermediate data.
+/data/raw/*
+/data/processed/*
+/data/splits/*
+/artifacts/*
+!/data/raw/.gitkeep
+!/data/processed/.gitkeep
+!/data/splits/.gitkeep
+!/artifacts/.gitkeep
+*.log
+*.zip
+*.tar
+*.tar.gz
+*.7z
+*.tmp
+*.bak
+# Only the two verified bundles may contain model/data arrays.
+*.joblib
+*.npz
+*.npy
+!/logsentinel_artifacts/**
+# Other reports and runs stay local.
+/outputs/*
+!/outputs/imbalance_experiments/
+/outputs/imbalance_experiments/*
+!/outputs/imbalance_experiments/run_20261113_01/
+!/outputs/imbalance_experiments/run_20261113_01/**
+/LogSentinel_Team_Handoff*
+# Secrets and local tooling, including inside allowed bundles.
+.env
+.env.*
+secrets.toml
+credentials
+credentials.json
+*.pem
+*.key
+id_rsa*
+id_ed25519*
+.aws/
+.codex/
+.agents/
